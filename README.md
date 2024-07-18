@@ -1,20 +1,25 @@
-# clinic-management-system
+# Clinic Management System
 
-Healthcare computer system, commonly known as clinic management system, is created to computerize manual operations in clinics. The primary purpose is to digitize patient records so as to make data retrieval easy and efficient. Clinic Management System web application is developed by using PHP &amp; MySql and is designed to automate internal work flows and manage different aspect of a small to medium size medical clinics.
+The Clinic Management System (CMS) is designed to digitize and streamline clinic operations, replacing manual processes with a comprehensive web application. Built with PHP and MySQL, this system focuses on automating internal workflows and managing various aspects of small to medium-sized medical clinics, enhancing efficiency and data retrieval.
 
-# Features
-- Patient Registration
-- Keep Track of Patient Electronic Health Record History
-- Laboratory Management
-- Pharmacy Management
-- X-Ray Management
+# Key Features
+- Patient Registration: Simplifies the process of registering new patients.
+- Health Record Management: Maintains a detailed history of patient health records.
+- Laboratory Management: Organizes and manages laboratory tests and results.
+- Pharmacy Management: Oversees the dispensing and inventory of medications.
+- X-Ray Management: Manages X-ray imaging and records.
 
 # Installation Guide
-1. You need to create the database. The scripts for the database is in the 'sql' directory.
-2. Change your database configuration in 'application/configs/database.php'.
-3. Now you can browse the web application.
-4. To sign up for a user account, change your browser location to 'http://< hostname >[:portnumber]/[subdirectory/][index.php/]account/signup'. Ensure that the first user to register must be of role admin.
+1. Create the Database: Set up a new database for the application.
+2. Import Database File: Import the SQL file located in the 'sql' directory into your database.
+3. Configure Database Settings: Update the database configuration in 'application/configs/database.php' to match your   database credentials.
+4. Access the Web Application: Open your web browser and navigate to the application.
+5. User Account Signup: To create a user account, navigate to the signup page at 'http://<hostname>[
+]/[subdirectory/][index.php/]account/signup'. Ensure the first user registered has an admin role.
 
-Signup page address examples:
- - http://localhost:8080/clinic-management-system/index.php/account/signup
- - http://localhost/account/signup
+# Signup Page Examples
+- http://localhost:8080/clinic-management-system/index.php/account/signup
+- http://localhost/account/signup
+
+
+By following these steps, you can easily set up and start using the Clinic Management System to improve the operational efficiency of your clinic.
